@@ -141,7 +141,7 @@ export const themeSettings = (mode) => {
               main: colors.grey[500],
               light: colors.grey[100],
             },
-            backgroud: {
+            background: {
               default: colors.primary[500],
             },
           }
@@ -157,7 +157,7 @@ export const themeSettings = (mode) => {
               main: colors.grey[500],
               light: colors.grey[100],
             },
-            backgroud: {
+            background: {
               default: "#fcfcfc",
             },
           }),
@@ -193,7 +193,7 @@ export const themeSettings = (mode) => {
   };
 };
 
-// contex for color mode
+// context for color mode
 export const ColorModeContext = createContext({
   // function that will allow to change the colors
   toggleColorMode: () => {},
