@@ -1,6 +1,6 @@
 # React DashBoard App
 
-This project is a app is a multitul which includes calendar, sales statistic and other info presented in different kinds of charts according to provided data. Also map that devides country by parameters and accordind color. Users and there permisions, different kinds of slectors and animation. Dark/Light mode and more other features.  
+This project is an app that is a multitool that includes calendars, sales statistics and other info presented in different types of charts according to provided data. Also, a map that divides the country by parameters and according to the colour. Users and their permissions, different kinds of selectors and animation. Dark/Light mode and other features. 
 
 ## Used Technonology 
 
