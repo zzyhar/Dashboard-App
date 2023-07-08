@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Dashboard App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a feature-rich dashboard application built using React and various libraries such as Material-UI, React Router DOM, Formik, Yup, FullCalendar, Nivo, and more. It provides a comprehensive set of tools to visualize data, manage events, and navigate through different components. The app also offers support for both light and dark modes, ensuring a pleasant user experience.
 
-## Available Scripts
+![Dark Mode](./images/Screen%20Shot%202023-07-08%20at%203.33.42%20PM.png)
+![Light Mode](./images/Screen%20Shot%202023-07-08%20at%203.33.42%20PM.png)
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+The Dashboard App is built using the following technologies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Material-UI
+- React Router DOM
+- Formik & Yup
+- FullCalendar (fulcalendar.io)
+- Nivo
+- Mug Data Grid
+- React Pro Sidebar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Data Table with Material UI Data Grid:** Display tabular data with advanced functionalities like sorting, filtering, and pagination.
+- **Material UI Calendar:** Create, move, and edit events seamlessly on a visually appealing calendar interface.
+- **Interactive Charts:** Visualize data using various types of charts, including bar charts and pie charts.
+- **Map Integration:** Display geographic data on an interactive map, providing a comprehensive view of relevant information.
+- **Light and Dark Mode:** Switch between light and dark themes to suit your preferences and reduce eye strain.
+- **React Router DOM:** Implement smooth navigation between different sections of the application.
+- **Enhanced Data Grid with Mug Data Grid:** Utilize an extended version of the Material UI Data Grid with additional features for enhanced data handling.
+- **React Pro Sidebar:** Customize and implement a sidebar component for efficient navigation and organization.
+- **Formik & Yup:** Leverage Formik and Yup for streamlined form handling and validation.
+- **FullCalendar Integration:** Benefit from the powerful FullCalendar library for advanced event management.
+- **Beautiful Data Visualizations with Nivo:** Create stunning and interactive data visualizations using the Nivo library.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
 
-### `npm run build`
+The Dashboard App is also deployed and can be accessed at [https://earnest-chimera-bbee8b.netlify.app/](https://earnest-chimera-bbee8b.netlify.app/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started with the Dashboard App, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository from GitHub:
 
-### `npm run eject`
+   ```
+   git clone https://github.com/zzyhar/Dashboard-App.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Change into the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```
+   cd Dashboard-App
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the project dependencies using npm or yarn:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```
+   npm install
+   ```
 
-## Learn More
+   or
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```
+   yarn install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server:
 
-### Code Splitting
+   ```
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   or
 
-### Analyzing the Bundle Size
+   ```
+   yarn start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   This will launch the app in your default browser. If it doesn't open automatically, you can access it at [http://localhost:3000](http://localhost:3000).
